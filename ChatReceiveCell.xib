@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ChatReceiveCell" rowHeight="50" id="3hd-LK-BVS" customClass="ChatReceiveCell" customModule="ZedChat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3hd-LK-BVS" id="qFR-zO-CC8">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fOf-8r-5Ej">
+                        <rect key="frame" x="15" y="4" width="355" height="40"/>
+                        <color key="backgroundColor" red="0.89803921568627454" green="0.89411764705882346" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EjE-Ke-9AC">
+                        <rect key="frame" x="380" y="34" width="21.5" height="10"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.42352941179999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" text="Label ASDF ADFA SDF ADSF ASDF ADSF FF F FFLabel ASDF ADFA SDF ADSF ASDF ADSF FF F FF" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PzE-HN-qsp" customClass="LinkedLabel" customModule="ZedChat" customModuleProvider="target">
+                        <rect key="frame" x="29" y="9" width="331" height="28"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                        <color key="textColor" red="0.1529411765" green="0.1529411765" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        </variation>
+                    </label>
+                    <view hidden="YES" alpha="0.15000000596046448" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bA5-cA-W80">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0039215686269999999" green="0.71764705880000002" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="fOf-8r-5Ej" firstAttribute="top" secondItem="PzE-HN-qsp" secondAttribute="top" constant="-5" id="1bs-DD-nOb"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="EjE-Ke-9AC" secondAttribute="trailing" priority="999" constant="10" id="2fv-rO-lgD"/>
+                    <constraint firstItem="EjE-Ke-9AC" firstAttribute="leading" secondItem="PzE-HN-qsp" secondAttribute="trailing" constant="20" id="CFQ-QZ-u8Q"/>
+                    <constraint firstItem="fOf-8r-5Ej" firstAttribute="leading" secondItem="PzE-HN-qsp" secondAttribute="leading" constant="-14" id="CeW-6W-5kj"/>
+                    <constraint firstItem="fOf-8r-5Ej" firstAttribute="leading" secondItem="qFR-zO-CC8" secondAttribute="leading" constant="15" id="CxL-18-M1p"/>
+                    <constraint firstItem="PzE-HN-qsp" firstAttribute="top" secondItem="qFR-zO-CC8" secondAttribute="topMargin" constant="-2" id="DQz-eT-Qtt"/>
+                    <constraint firstAttribute="bottom" secondItem="PzE-HN-qsp" secondAttribute="bottom" constant="12.5" id="HgP-7v-hO3"/>
+                    <constraint firstItem="fOf-8r-5Ej" firstAttribute="trailing" secondItem="PzE-HN-qsp" secondAttribute="trailing" constant="10" id="cw5-7D-CI3"/>
+                    <constraint firstItem="PzE-HN-qsp" firstAttribute="top" secondItem="qFR-zO-CC8" secondAttribute="top" constant="9" id="pBP-5z-EVb"/>
+                    <constraint firstItem="EjE-Ke-9AC" firstAttribute="bottom" secondItem="fOf-8r-5Ej" secondAttribute="bottom" id="rvd-SR-3uC"/>
+                    <constraint firstItem="fOf-8r-5Ej" firstAttribute="bottom" secondItem="PzE-HN-qsp" secondAttribute="bottom" constant="7" id="tSG-zn-nIT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lblmsg" destination="PzE-HN-qsp" id="5S0-pG-zk8"/>
+                <outlet property="lbltime" destination="EjE-Ke-9AC" id="RPQ-uA-HYt"/>
+                <outlet property="vbg" destination="fOf-8r-5Ej" id="nh8-DS-sjb"/>
+                <outlet property="vselection" destination="bA5-cA-W80" id="2LV-ZW-m8y"/>
+            </connections>
+            <point key="canvasLocation" x="52.5" y="322.18309859154931"/>
+        </tableViewCell>
+    </objects>
+</document>

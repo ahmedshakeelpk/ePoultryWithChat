@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ReceiverDeleteCell" rowHeight="51" id="ZjM-2G-bVV" customClass="ReceiverDeleteCell" customModule="ePoltry" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="51"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZjM-2G-bVV" id="tD5-Yn-kGL">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="51"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view hidden="YES" alpha="0.15000000596046448" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RUl-eX-Beq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="52"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0039215686269999999" green="0.71764705880000002" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXS-EZ-99S">
+                        <rect key="frame" x="251" y="35" width="24" height="11"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <color key="textColor" red="0.42352941179999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jut-6q-LqM">
+                        <rect key="frame" x="10" y="4.5" width="218" height="41.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" text="You deleted this message" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5nu-Sl-79J">
+                        <rect key="frame" x="47" y="15.5" width="159" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="14"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRk-Fb-em3">
+                        <rect key="frame" x="27" y="5" width="4.5" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="tTb-EK-F4u"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.42352941179999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deletedmsg" translatesAutoresizingMaskIntoConstraints="NO" id="2Ad-VO-3MM">
+                        <rect key="frame" x="20" y="19" width="13" height="13"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="gRk-Fb-em3" firstAttribute="leading" secondItem="jut-6q-LqM" secondAttribute="leading" constant="17" id="9kS-Qs-8RJ"/>
+                    <constraint firstItem="jut-6q-LqM" firstAttribute="bottom" secondItem="5nu-Sl-79J" secondAttribute="bottom" constant="10" id="CAE-rk-asU"/>
+                    <constraint firstItem="BXS-EZ-99S" firstAttribute="bottom" secondItem="jut-6q-LqM" secondAttribute="bottom" id="Cio-c4-Trj"/>
+                    <constraint firstAttribute="bottom" secondItem="5nu-Sl-79J" secondAttribute="bottom" constant="15" id="EAY-5A-Vfs"/>
+                    <constraint firstItem="5nu-Sl-79J" firstAttribute="leading" secondItem="tD5-Yn-kGL" secondAttribute="leadingMargin" constant="27" id="Eha-d1-LGZ"/>
+                    <constraint firstItem="jut-6q-LqM" firstAttribute="top" secondItem="5nu-Sl-79J" secondAttribute="top" constant="-11" id="SzL-d0-QVk"/>
+                    <constraint firstItem="jut-6q-LqM" firstAttribute="trailing" secondItem="5nu-Sl-79J" secondAttribute="trailing" constant="22" id="Uh2-m8-Gqc"/>
+                    <constraint firstItem="gRk-Fb-em3" firstAttribute="top" secondItem="tD5-Yn-kGL" secondAttribute="top" constant="5" id="bQt-i1-vFA"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="BXS-EZ-99S" secondAttribute="trailing" priority="999" constant="10" id="eWC-GV-2tO"/>
+                    <constraint firstItem="jut-6q-LqM" firstAttribute="top" secondItem="gRk-Fb-em3" secondAttribute="bottom" constant="-24.5" id="kvy-MI-aAC"/>
+                    <constraint firstItem="BXS-EZ-99S" firstAttribute="leading" secondItem="5nu-Sl-79J" secondAttribute="trailing" constant="45" id="qHI-QK-SGt"/>
+                    <constraint firstItem="jut-6q-LqM" firstAttribute="leading" secondItem="5nu-Sl-79J" secondAttribute="leading" constant="-37" id="ym2-VX-rt2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lblmsg" destination="5nu-Sl-79J" id="G34-f5-SRF"/>
+                <outlet property="lbltime" destination="BXS-EZ-99S" id="NCp-fT-jHo"/>
+                <outlet property="vbg" destination="jut-6q-LqM" id="HhA-od-Inm"/>
+                <outlet property="vselection" destination="RUl-eX-Beq" id="bKR-So-twR"/>
+            </connections>
+            <point key="canvasLocation" x="82.608695652173921" y="386.71875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="deletedmsg" width="100" height="100"/>
+    </resources>
+</document>

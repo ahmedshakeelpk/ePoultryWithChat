@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ChatSendCell" rowHeight="50" id="rMe-Aq-Ww9" customClass="ChatSendCell" customModule="ZedChat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rMe-Aq-Ww9" id="hQJ-xa-g3R">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r4Q-eU-OJc">
+                        <rect key="frame" x="52" y="4" width="347" height="40"/>
+                        <color key="backgroundColor" red="0.13333333333333333" green="0.57647058823529407" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" text="ASDF ASDF ASDF ASDF ASDF ASDF ASDF ASDF ASDF ASDF ASDF ASDF ASDF ASDF" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efZ-Sx-Z1h" customClass="LinkedLabel" customModule="ZedChat" customModuleProvider="target">
+                        <rect key="frame" x="66" y="9" width="318" height="28"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                        <color key="textColor" red="0.1529411765" green="0.1529411765" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJk-H4-NLd">
+                        <rect key="frame" x="25.5" y="34.5" width="21.5" height="10"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.42352941179999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        </variation>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="msgsent" translatesAutoresizingMaskIntoConstraints="NO" id="Sgn-Re-2cp">
+                        <rect key="frame" x="34.5" y="17" width="13" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="Gb0-Uu-fAN"/>
+                            <constraint firstAttribute="width" constant="13" id="Y0J-zA-c82"/>
+                        </constraints>
+                    </imageView>
+                    <view hidden="YES" alpha="0.15000000596046448" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gwZ-Be-BO2">
+                        <rect key="frame" x="0.0" y="1" width="414" height="47"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0039215686269999999" green="0.71764705880000002" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="aJk-H4-NLd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="hQJ-xa-g3R" secondAttribute="leading" priority="999" constant="16" id="7xM-Bj-YwG"/>
+                    <constraint firstItem="efZ-Sx-Z1h" firstAttribute="top" secondItem="hQJ-xa-g3R" secondAttribute="top" constant="9" id="9hy-NU-PbH"/>
+                    <constraint firstItem="aJk-H4-NLd" firstAttribute="top" secondItem="Sgn-Re-2cp" secondAttribute="bottom" constant="4.5" id="Fwn-vM-5iw"/>
+                    <constraint firstItem="aJk-H4-NLd" firstAttribute="bottom" secondItem="r4Q-eU-OJc" secondAttribute="bottom" constant="0.5" id="Kuu-yY-NfE"/>
+                    <constraint firstItem="r4Q-eU-OJc" firstAttribute="leading" secondItem="Sgn-Re-2cp" secondAttribute="trailing" constant="4.5" id="R6X-7A-JbI"/>
+                    <constraint firstItem="r4Q-eU-OJc" firstAttribute="bottom" secondItem="efZ-Sx-Z1h" secondAttribute="bottom" constant="7" id="WUT-yU-kf5"/>
+                    <constraint firstAttribute="bottom" secondItem="efZ-Sx-Z1h" secondAttribute="bottom" constant="12.5" id="WvS-75-Whj"/>
+                    <constraint firstItem="efZ-Sx-Z1h" firstAttribute="leading" secondItem="aJk-H4-NLd" secondAttribute="trailing" constant="19" id="Xf4-R1-0nR"/>
+                    <constraint firstItem="r4Q-eU-OJc" firstAttribute="top" secondItem="efZ-Sx-Z1h" secondAttribute="top" constant="-5" id="me3-SQ-lPZ"/>
+                    <constraint firstAttribute="trailing" secondItem="efZ-Sx-Z1h" secondAttribute="trailing" constant="30" id="nze-ce-Nd0"/>
+                    <constraint firstItem="r4Q-eU-OJc" firstAttribute="leading" secondItem="efZ-Sx-Z1h" secondAttribute="leading" constant="-14" id="tUG-AA-qqP"/>
+                    <constraint firstItem="r4Q-eU-OJc" firstAttribute="trailing" secondItem="efZ-Sx-Z1h" secondAttribute="trailing" constant="15" id="ttD-ir-ZR3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="imgvmsgstatus" destination="Sgn-Re-2cp" id="0ae-jI-l9N"/>
+                <outlet property="lblmsg" destination="efZ-Sx-Z1h" id="fQC-S9-dSb"/>
+                <outlet property="lbltime" destination="aJk-H4-NLd" id="rmF-Sf-dTl"/>
+                <outlet property="vbg" destination="r4Q-eU-OJc" id="dvz-0q-aHs"/>
+                <outlet property="vselection" destination="gwZ-Be-BO2" id="ASQ-Rn-Lzj"/>
+            </connections>
+            <point key="canvasLocation" x="-388.125" y="424.64788732394368"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="msgsent" width="64" height="64"/>
+    </resources>
+</document>

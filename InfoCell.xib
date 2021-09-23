@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="InfoCell" rowHeight="30" id="i02-Cv-hDx" customClass="InfoCell" customModule="ePoltry" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="i02-Cv-hDx" id="qHI-cU-W6c">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qg9-py-JHj">
+                        <rect key="frame" x="196.5" y="2" width="23.5" height="25.5"/>
+                        <color key="backgroundColor" red="0.1333333333" green="0.57647058819999997" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9c1-A3-gnM" customClass="LinkedLabel" customModule="ePoltry" customModuleProvider="target">
+                        <rect key="frame" x="204" y="6" width="7.5" height="14.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="22"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="13"/>
+                        </variation>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9c1-A3-gnM" secondAttribute="trailing" constant="11" id="19r-XH-x6n"/>
+                    <constraint firstItem="Qg9-py-JHj" firstAttribute="top" secondItem="qHI-cU-W6c" secondAttribute="top" constant="2" id="Djx-ai-KoS"/>
+                    <constraint firstItem="9c1-A3-gnM" firstAttribute="trailing" secondItem="Qg9-py-JHj" secondAttribute="trailing" constant="-8.5" id="N4x-HA-2D2"/>
+                    <constraint firstItem="9c1-A3-gnM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qHI-cU-W6c" secondAttribute="leading" constant="11" id="ljT-03-FGW"/>
+                    <constraint firstItem="9c1-A3-gnM" firstAttribute="bottom" secondItem="Qg9-py-JHj" secondAttribute="bottom" constant="-7" id="nG0-m9-oGc"/>
+                    <constraint firstItem="Qg9-py-JHj" firstAttribute="centerX" secondItem="qHI-cU-W6c" secondAttribute="centerX" constant="1" id="ndY-bO-R5x"/>
+                    <constraint firstItem="9c1-A3-gnM" firstAttribute="leading" secondItem="Qg9-py-JHj" secondAttribute="leading" constant="7.5" id="ths-fp-Y3a"/>
+                    <constraint firstItem="9c1-A3-gnM" firstAttribute="top" secondItem="Qg9-py-JHj" secondAttribute="top" constant="4" id="vdZ-Rt-uGi"/>
+                    <constraint firstAttribute="bottom" secondItem="Qg9-py-JHj" secondAttribute="bottom" constant="2.5" id="z1F-14-DZJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="bgv" destination="Qg9-py-JHj" id="jMP-Kx-vbq"/>
+                <outlet property="lblmsg" destination="9c1-A3-gnM" id="0aw-UC-Ft7"/>
+            </connections>
+            <point key="canvasLocation" x="-281.15942028985512" y="399.10714285714283"/>
+        </tableViewCell>
+    </objects>
+</document>

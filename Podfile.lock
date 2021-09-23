@@ -1,0 +1,283 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Crashlytics (3.14.0):
+    - Fabric (~> 1.10.2)
+  - CZPicker (0.4.3)
+  - DropDown (2.3.13)
+  - EasyTipView (2.0.4)
+  - EVReflection (5.10.1):
+    - EVReflection/Core (= 5.10.1)
+  - EVReflection/Core (5.10.1)
+  - Fabric (1.10.2)
+  - Firebase (6.14.0):
+    - Firebase/Core (= 6.14.0)
+  - Firebase/Analytics (6.14.0):
+    - Firebase/Core
+  - Firebase/Auth (6.14.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 6.4.1)
+  - Firebase/Core (6.14.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.1.7)
+  - Firebase/CoreOnly (6.14.0):
+    - FirebaseCore (= 6.5.0)
+  - Firebase/Database (6.14.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 6.1.3)
+  - Firebase/Messaging (6.14.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.1.10)
+  - Firebase/Storage (6.14.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (~> 3.4.3)
+  - FirebaseAnalytics (6.1.7):
+    - FirebaseCore (~> 6.5)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleAppMeasurement (= 6.1.7)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (= 0.3.9011)
+  - FirebaseAnalyticsInterop (1.4.0)
+  - FirebaseAuth (6.4.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (6.5.0):
+    - FirebaseCoreDiagnostics (~> 1.0)
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.4)
+    - GoogleUtilities/Logger (~> 6.4)
+  - FirebaseCoreDiagnostics (1.1.2):
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleDataTransportCCTSupport (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Logger (~> 6.2)
+    - nanopb (~> 0.3.901)
+  - FirebaseCoreDiagnosticsInterop (1.1.0)
+  - FirebaseDatabase (6.1.3):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.0)
+    - leveldb-library (~> 1.22)
+  - FirebaseInstanceID (4.2.8):
+    - FirebaseCore (~> 6.5)
+    - GoogleUtilities/Environment (~> 6.4)
+    - GoogleUtilities/UserDefaults (~> 6.4)
+  - FirebaseMessaging (4.1.10):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.2)
+    - FirebaseInstanceID (~> 4.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Reachability (~> 6.2)
+    - GoogleUtilities/UserDefaults (~> 6.2)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseStorage (3.4.3):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FlagPhoneNumber (0.8.0):
+    - FlagPhoneNumber/libPhoneNumberiOS (= 0.8.0)
+  - FlagPhoneNumber/libPhoneNumberiOS (0.8.0)
+  - GeoFire (4.0.1):
+    - Firebase/Database (~> 6.0)
+  - GoogleAppMeasurement (6.1.7):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (= 0.3.9011)
+  - GoogleDataTransport (3.2.0)
+  - GoogleDataTransportCCTSupport (1.2.3):
+    - GoogleDataTransport (~> 3.2)
+    - nanopb (~> 0.3.901)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (3.1.0):
+    - GoogleMaps (= 3.1.0)
+    - GooglePlaces (= 3.1.0)
+  - GooglePlaces (3.1.0):
+    - GoogleMaps/Base (= 3.1.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.4.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.4.0)
+  - GoogleUtilities/Logger (6.4.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.4.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.4.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.4.0)"
+  - GoogleUtilities/Reachability (6.4.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.4.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.3.0)
+  - ISEmojiView (0.2.5)
+  - Kanna (5.0.0)
+  - Kingfisher (5.12.0):
+    - Kingfisher/Core (= 5.12.0)
+  - Kingfisher/Core (5.12.0)
+  - leveldb-library (1.22)
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - Protobuf (3.11.2)
+  - RSKGrowingTextView (5.0.2):
+    - RSKPlaceholderTextView (= 5.0.2)
+  - RSKKeyboardAnimationObserver (1.0.0)
+  - RSKPlaceholderTextView (5.0.2)
+  - SinchRTC (4.1.0)
+  - SNVideoRecorder (0.2.1):
+    - NVActivityIndicatorView
+  - UIImageView-Letters (1.1.4)
+  - VHBoomMenuButton/Swift (2.0.0)
+  - XLPagerTabStrip (9.0.0)
+  - youtube-ios-player-helper-swift (1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Crashlytics
+  - CZPicker
+  - DropDown
+  - EasyTipView
+  - EVReflection
+  - Fabric
+  - Firebase
+  - Firebase/Analytics
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Messaging
+  - Firebase/Storage
+  - FlagPhoneNumber
+  - GeoFire
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - ISEmojiView
+  - Kanna
+  - Kingfisher
+  - RSKGrowingTextView
+  - RSKKeyboardAnimationObserver
+  - SinchRTC
+  - SNVideoRecorder
+  - UIImageView-Letters
+  - VHBoomMenuButton/Swift
+  - XLPagerTabStrip
+  - youtube-ios-player-helper-swift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Crashlytics
+    - CZPicker
+    - DropDown
+    - EasyTipView
+    - EVReflection
+    - Fabric
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebaseStorage
+    - FlagPhoneNumber
+    - GeoFire
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - ISEmojiView
+    - Kanna
+    - Kingfisher
+    - leveldb-library
+    - nanopb
+    - NVActivityIndicatorView
+    - Protobuf
+    - RSKGrowingTextView
+    - RSKKeyboardAnimationObserver
+    - RSKPlaceholderTextView
+    - SinchRTC
+    - SNVideoRecorder
+    - UIImageView-Letters
+    - VHBoomMenuButton
+    - XLPagerTabStrip
+    - youtube-ios-player-helper-swift
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
+  CZPicker: 55aa1751ea26e209814552da1a9a08cba8bbf72a
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  EasyTipView: 4f8beae0a82db2ca4a9b5fd658785fc5f61d296b
+  EVReflection: 8124de482178d34ccd56473e16cd95990f9a1113
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  Firebase: 0219bb4782eb1406f1b9b0628a2e625484ce910d
+  FirebaseAnalytics: f68b9f3f1241385129ae0a83b63627fc420c05e5
+  FirebaseAnalyticsInterop: d48b6ab67bcf016a05e55b71fc39c61c0cb6b7f3
+  FirebaseAuth: 831577b184ecaba38bc886768c1c22a450cc44e3
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: 632e05cc5e1199d9147122c16d92305eb04c34bd
+  FirebaseCoreDiagnostics: 511f4f3ed7d440bb69127e8b97c2bc8befae639e
+  FirebaseCoreDiagnosticsInterop: e9b1b023157e3a2fc6418b5cb601e79b9af7b3a0
+  FirebaseDatabase: 9db0c9bb6d3308870cc831a8a6d70c82fd169f37
+  FirebaseInstanceID: ce993a3c3670a8f5d47ce371ac5d143c560608c5
+  FirebaseMessaging: 089b7a4991425783384acc8bcefcd78c0af913bd
+  FirebaseStorage: 93fe2f8190a01bfb2b2c4932df7d679744c4ef1d
+  FlagPhoneNumber: 3712455b95f66cb0f2016fef7d9e34cddf8c7f9a
+  GeoFire: 67b5276c561434b4e4c7ea567c2c4d64e711339c
+  GoogleAppMeasurement: db118eb61a97dd8c4f7014e368d3c335cbbcf80a
+  GoogleDataTransport: 8e9b210c97d55fbff306cc5468ff91b9cb32dcf5
+  GoogleDataTransportCCTSupport: 202d7cdf9c4a7d81a2bb7f7e7e1ba6faa421b1f2
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  GooglePlacePicker: fa975116ac202ac29822c0a79758ea1c4db5a95f
+  GooglePlaces: e874db179f2675c4f3eeda0b686b540273a578b0
+  GoogleUtilities: 29bd0d8f850efbd28cff6d99e8b7da1f8d236bcf
+  GTMSessionFetcher: 43b8b64263023d4f32caa0b40f4c8bfa3c5f36d8
+  ISEmojiView: 5a5a41f36a97aa9ad493689be0c2636115490e60
+  Kanna: a32875df62975f8f4b871e933b4ea1a5c3b8be0f
+  Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
+  leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  Protobuf: dd1aaea7140debfe4dd0683fb8ef208e527ae153
+  RSKGrowingTextView: 9fdc68c8dabaacd54e23c316ff14b73aef034594
+  RSKKeyboardAnimationObserver: 0bdbc5235a96ce6d1e6143998214160c7f7c9b37
+  RSKPlaceholderTextView: df72ca93edfac185b98f51cb85e445f54ce8a163
+  SinchRTC: 6533ff64e6286b317c752ebc639dc5170ef540e2
+  SNVideoRecorder: d9ee10060c1c9760a631b95e81abbee1d9c7c075
+  UIImageView-Letters: f62db28076797adf3560ab7410647dc6899b9eef
+  VHBoomMenuButton: 77a7ae6742220b57b54eec28183fc123a3dd98ed
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+  youtube-ios-player-helper-swift: 51a3c5325317c8271d0c7985c1bbe5a252ffb2fd
+
+PODFILE CHECKSUM: 8bff5601a701d3c9745457fd1fe04e2c71a377d3
+
+COCOAPODS: 1.8.4
